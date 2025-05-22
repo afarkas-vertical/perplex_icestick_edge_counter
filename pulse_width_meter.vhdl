@@ -32,7 +32,7 @@ architecture Behavioral of pulse_width_meter is
 
 					-- Increment the count every clock cycle
 					if pulse_in_d = '1' then
-						count <= count + 1; --
+						count <= count + 1;
 					end if;
 
 					-- Check if the pulse falling edge detected
