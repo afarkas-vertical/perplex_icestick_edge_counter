@@ -1,0 +1,6 @@
+# Input from comparator
+set_io pulse_in 44 # Example pin number, check documentation for actual pins
+
+# Other necessary connections
+set_io clk_12mhz 35     # Clock input
+set_io uart_tx 9        # UART TX for sending results

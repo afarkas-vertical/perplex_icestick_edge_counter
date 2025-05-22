@@ -1,0 +1,146 @@
+10:20:46 AM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "perplexEdgeCounter_syn.prj" -log "C:/lscc/iCEcube2.2020.12/Projects/perplex_icestick_edge_counter/perplexEdgeCounter/perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of C:/lscc/iCEcube2.2020.12/Projects/perplex_icestick_edge_counter/perplexEdgeCounter/perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-OS45TF5
+
+# Wed May 21 10:21:33 2025
+
+#Implementation: perplexEdgeCounter_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:23|Top entity is set to pulse_width_meter.
+@E: CD255 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:14:8:14|No identifier "wire" in scope
+@E: CD614 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:37:8:39|separator required between number and identifier
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":17:8:17:8|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":29:8:29:8|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":41:8:41:8|character '@' is not allowed
+
+5 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:21:34 2025
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:21:34 2025
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "perplexEdgeCounter_syn.prj" -log "perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-OS45TF5
+
+# Wed May 21 10:21:53 2025
+
+#Implementation: perplexEdgeCounter_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:23|Top entity is set to pulse_width_meter.
+@E: CD255 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:14:8:14|No identifier "wire" in scope
+@E: CD614 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:37:8:39|separator required between number and identifier
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":17:10:17:10|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":29:10:29:10|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":41:10:41:10|character '@' is not allowed
+
+5 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:21:53 2025
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:21:53 2025
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "perplexEdgeCounter_syn.prj" -log "perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of perplexEdgeCounter_Implmnt/perplexEdgeCounter.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-OS45TF5
+
+# Wed May 21 10:22:36 2025
+
+#Implementation: perplexEdgeCounter_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:23|Top entity is set to pulse_width_meter.
+@E: CD255 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:14:8:14|No identifier "wire" in scope
+@E: CD614 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":8:37:8:39|separator required between number and identifier
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":17:0:17:0|character '#' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":17:9:17:9|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":29:0:29:0|character '#' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":29:9:29:9|character '@' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":41:0:41:0|character '#' is not allowed
+
+@E: CD493 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":41:9:41:9|character '@' is not allowed
+
+8 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:22:36 2025
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May 21 10:22:36 2025
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds12:29:48 PM
