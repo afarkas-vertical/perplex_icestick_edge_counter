@@ -1,9 +1,9 @@
 C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe  -osyn  C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synwork\perplexEdgeCounter_comp.srs  -hdllog  C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synlog\perplexEdgeCounter_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl -lib work C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl -lib work C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\uart_tx.vhdl 
 rc:2 success:0 runtime:0
 file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synwork\perplexEdgeCounter_comp.srs|io:o|time:0|size:0|exec:0
-file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synlog\perplexEdgeCounter_compiler.srr|io:o|time:1747934600|size:2787|exec:0
+file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synlog\perplexEdgeCounter_compiler.srr|io:o|time:1747935031|size:2787|exec:0
 file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl|io:i|time:1747867442|size:1915|exec:0
-file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl|io:i|time:1747933467|size:1638|exec:0
+file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl|io:i|time:1747934756|size:1635|exec:0
 file:C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\uart_tx.vhdl|io:i|time:1747868366|size:2344|exec:0
 file:C:\lscc\iCEcube2.2020.12\synpbase\bin\c_hdl.exe|io:i|time:1745517714|size:1338368|exec:1
 file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\c_hdl.exe|io:i|time:1745517715|size:1754112|exec:1
