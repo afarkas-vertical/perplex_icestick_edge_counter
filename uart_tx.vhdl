@@ -5,12 +5,12 @@ use ieee.numeric_std.all;
 
 entity uart_tx is
     port (
-        clk         : in    std_logic;
-        rst         : in    std_logic;
-        data_in     : in    std_logic_vector(23 downto 0);
-        tx_start    : in    std_logic;
-        tx          : out   std_logic;
-        busy        : out   std_logic
+        clk                 : in    std_logic;
+        rst                 : in    std_logic;
+        data_in             : in    std_logic_vector(23 downto 0);
+        tx_start            : in    std_logic;
+        tx                  : out   std_logic;
+        busy                : out   std_logic
     );
 end entity;
 

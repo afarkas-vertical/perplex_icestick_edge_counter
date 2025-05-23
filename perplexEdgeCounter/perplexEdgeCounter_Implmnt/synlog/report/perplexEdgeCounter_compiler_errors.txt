@@ -1,9 +1,7 @@
 @E: CD216 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl":48:2:48:3|label required for generate
 @E: CD415 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl":52:27:52:27|Expecting keyword of
-@E: CD126 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":12:1:12:1|Expecting identifier
-@E: CD557 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":13:10:13:10|Expecting entity name
 @E: CD218 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":21:8:21:14|Declaration hides port rst_btn
 @E: CD255 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":40:28:40:28|No identifier "data_to_send" in scope
-@E: CD424 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":78:16:78:16|Expecting architecture identifier
+@E: CD415 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":78:34:78:34|Expecting keyword is
 @E: Parse errors encountered - exiting
 

@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\run_options.txt
-#--  Written on Thu May 22 10:30:31 2025
+#--  Written on Thu May 22 10:41:31 2025
 
 
 #project files

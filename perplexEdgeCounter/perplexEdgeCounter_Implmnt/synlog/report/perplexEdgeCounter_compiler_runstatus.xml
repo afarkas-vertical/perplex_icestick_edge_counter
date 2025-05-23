@@ -22,7 +22,7 @@ The file contains the job information from compiler to be displayed as part of t
   <report_link name="more"><data>C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synlog\report\perplexEdgeCounter_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
-  <data>8</data>
+  <data>6</data>
   <report_link name="more"><data>C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\perplexEdgeCounter\perplexEdgeCounter_Implmnt\synlog\report\perplexEdgeCounter_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
@@ -35,7 +35,7 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1747935031</data>
+  <data type="timestamp">1747935691</data>
   </info>
 			</job_info>
 </job_run_status>

@@ -5,11 +5,11 @@ use ieee.numeric_std.all;
 
 entity pulse_width_meter is
 	port(
-		clk			: in 	std_logic; 						-- FPGA clock (e.g., 100MHz)
-		rst			: in 	std_logic; 						-- Reset signal
-		pulse_in	: in 	std_logic; 						-- Input signal from comparator
-		pulse_out	: out	std_logic_vector(23 downto 0);
-		ready		: out	std_logic
+		clk 				: in 	std_logic; 						-- FPGA clock (e.g., 100MHz)
+		rst 				: in 	std_logic; 						-- Reset signal
+		pulse_in			: in 	std_logic; 						-- Input signal from comparator
+		pulse_out			: out	std_logic_vector(23 downto 0);
+		ready				: out	std_logic
 	);
 end pulse_width_meter;
 
