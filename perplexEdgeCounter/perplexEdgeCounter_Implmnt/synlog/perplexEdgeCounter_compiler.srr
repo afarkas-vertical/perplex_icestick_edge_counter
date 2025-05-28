@@ -8,21 +8,45 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 
 @N: CD720 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
 @N:"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:9|Top entity is set to top.
-@E: CD216 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl":48:2:48:3|label required for generate
-@E: CD415 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl":52:27:52:27|Expecting keyword of
-2 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl
-2 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\uart_tx.vhdl
-@E: CD218 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":21:8:21:14|Declaration hides port rst_btn
-@E: CD255 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":40:28:40:28|No identifier "data_to_send" in scope
-@E: CD415 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":78:34:78:34|Expecting keyword is
-5 errors parsing file C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl
-@E: Parse errors encountered - exiting
+File C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl changed - recompiling
+File C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\uart_tx.vhdl changed - recompiling
+File C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl changed - recompiling
+VHDL syntax check successful!
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:9|Synthesizing work.top.behavioral.
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\uart_tx.vhdl":6:7:6:13|Synthesizing work.uart_tx.behavioral.
+Post processing for work.uart_tx.behavioral
+@N: CD630 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\pulse_width_meter.vhdl":6:7:6:23|Synthesizing work.pulse_width_meter.behavioral.
+Post processing for work.pulse_width_meter.behavioral
+Post processing for work.top.behavioral
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu May 22 10:41:31 2025
+
+Process completed successfully.
+# Wed May 28 11:17:30 2025
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:9|Selected library: work cell: top view behavioral as top level
+@N: NF107 :"C:\lscc\iCEcube2.2020.12\Projects\perplex_icestick_edge_counter\top.vhdl":6:7:6:9|Selected library: work cell: top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 28 11:17:30 2025
 
 ###########################################################]
 @END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu May 22 10:41:31 2025
+
+Process completed successfully.
+# Wed May 28 11:17:30 2025
 
 ###########################################################]

@@ -18,7 +18,7 @@ architecture Behavioral of uart_tx is
     constant BAUD_DIV : integer := 1250; -- 12 MHz / 9600 baud
     signal baud_cnt   : integer range 0 to BAUD_DIV-1 := 0;
     signal bit_cnt    : integer range 0 to 23 := 0;
-    signal shift_reg  : std_logic_vector(23 downto 0) := (others => '1');
+    signal shift_reg  : std_logic_vector(29 downto 0) := (others => '1');
     signal sending    : std_logic := '0';
     signal tx_reg     : std_logic := '1';
 
@@ -36,21 +36,22 @@ architecture Behavioral of uart_tx is
                 else
                     if sending = '0' then
                         if tx_start = '1' then
-                            shift_reg <= data_in(23 downto 0);
-                            	--'0' & data_in(7 downto 0) & '1' & 
-    				--            '0' & data_in(15 downto 8) & '1' & 
-    				--            '0' & data_in(23 downto 16) & '1';
-    				        bit_cnt     <= 0;
-                            sending     <= '1';
-                            baud_cnt    <= 0;
+                            shift_reg <= -- startbit + data + stopbit
+				'0' & data_in(7 downto 0) & '1' & 
+    				'0' & data_in(15 downto 8) & '1' & 
+    				'0' & data_in(23 downto 16) & '1';
+
+				bit_cnt     <= 0;
+                        	sending     <= '1';
+                           	baud_cnt    <= 0;
                         end if;
                     else
                         if baud_cnt = BAUD_DIV-1 then
                             baud_cnt    <= 0;
                             tx_reg      <= shift_reg(0);
-                            shift_reg   <= '1' & shift_reg(23 downto 1);
+                            shift_reg   <= '1' & shift_reg(29 downto 1);
                             bit_cnt     <= bit_cnt + 1;
-                            if bit_cnt = 23 then
+                            if bit_cnt = 29 then
                                 sending <= '0';
                             end if;
                         else
