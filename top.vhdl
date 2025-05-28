@@ -7,18 +7,20 @@ entity top is
 	port(
 		clk_12mhz			: in 	std_logic; 			-- FPGA clock (e.g., 12MHz)
 		rst_btn				: in 	std_logic; 			-- Reset signal
-		sig_in				: in 	std_logic; 			-- Input signal from comparator
+		pulse_in				: in 	std_logic; 			-- Input signal from comparator
 		uart_tx				: out	std_logic			-- 
 	);
 end entity;
 
 architecture Behavioral of top is
-	signal pulse_val	: std_logic_vector(23 downto 0);
-	signal pulse_ready	: std_logic;
+	signal pulse_val	: std_logic_vector(23 downto 0) := 0;
+	signal pulse_ready	: std_logic := '0';
 	signal tx_start		: std_logic := '0';
-	--signal tx_busy		: std_logic;
+	signal tx_busy		: std_logic := '0';
 	signal last_ready	: std_logic := '0';
-	signal rst_btn		: std_logic := '0';
+	--signal rst_btn		: std_logic := '0';
+	signal data_to_send	: std_logic_vector(23 downto 0) := (others => '0');
+	
 
 	-- Heartbeat signal
 	--signal heartbeat_counter	: unsigned(1 downto 0) := (others => '0');
@@ -28,7 +30,7 @@ architecture Behavioral of top is
 			port map (
 				clk 		=> clk_12mhz,
 				rst 		=> rst_btn,
-				pulse_in 	=> sig_in,
+				pulse_in 	=> pulse_in,
 				pulse_out	=> pulse_val,
 				ready		=> pulse_ready
 			);

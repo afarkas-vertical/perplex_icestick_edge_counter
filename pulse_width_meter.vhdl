@@ -24,8 +24,8 @@ architecture Behavioral of pulse_width_meter is
 			-- Every rising edge, check if there is a pulse on the channel
 			if rising_edge(clk) then
 				if rst = '1' then
-					count <= (others => 0);
-					c_width <= (others => 0);
+					count <= 0;
+					c_width <= 0;
 					pulse_in_d <= '0';
 				else
 					pulse_in_d <= pulse_in; -- pulse_in_d acts as a boolean to begin counting
@@ -38,15 +38,16 @@ architecture Behavioral of pulse_width_meter is
 					-- Check if the pulse falling edge detected
 					if pulse_in_d = '1' and pulse_in = '0' then
 						c_width <= count; -- Transfer value to output
-						count <= (others => 0); -- Reset count
+						count <= 0; -- Reset count
 					end if;
 				end if;
 			end if;
-		end process;
 
-		-- If c_width is higher than 0, then send the pulse value out
-		if c_width >= 0 then
-			pulse_out <= std_logic_vector(c_width);
-			ready <= '1';
-		end if;
+			-- If c_width is higher than 0, then send the pulse value out
+			if c_width >= 0 then
+				pulse_out <= std_logic_vector(c_width);
+				ready <= '1';
+			end if;
+		end process;
+		
 end architecture Behavioral;

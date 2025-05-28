@@ -36,10 +36,10 @@ architecture Behavioral of uart_tx is
                 else
                     if sending = '0' then
                         if tx_start = '1' then
-                            shift_reg <= 
-                            	'0' & data_in(7 downto 0) & '1' & 
-    				            '0' & data_in(15 downto 8) & '1' & 
-    				            '0' & data_in(23 downto 16) & '1';
+                            shift_reg <= data_in(23 downto 0);
+                            	--'0' & data_in(7 downto 0) & '1' & 
+    				--            '0' & data_in(15 downto 8) & '1' & 
+    				--            '0' & data_in(23 downto 16) & '1';
     				        bit_cnt     <= 0;
                             sending     <= '1';
                             baud_cnt    <= 0;
