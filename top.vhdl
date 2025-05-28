@@ -8,7 +8,8 @@ entity top is
 		clk_12mhz			: in 	std_logic; 			-- FPGA clock (e.g., 12MHz)
 		rst_btn				: in 	std_logic; 			-- Reset signal
 		pulse_in				: in 	std_logic; 			-- Input signal from comparator
-		uart_tx				: out	std_logic			-- 
+		uart_tx				: out	std_logic			-- UART TX 
+		uart_rx				: in	std_logic			-- UART RX for loopback purposes only
 	);
 end entity;
 
@@ -42,6 +43,7 @@ architecture Behavioral of top is
 				data_in		=> data_to_send,
 				tx_start	=> tx_start,
 				tx			=> uart_tx,
+				rx			=> uart_rx,
 				busy		=> tx_busy
 			);
 

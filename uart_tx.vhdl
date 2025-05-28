@@ -9,6 +9,7 @@ entity uart_tx is
         rst                 : in    std_logic;
         data_in             : in    std_logic_vector(23 downto 0);
         tx_start            : in    std_logic;
+        rx                  : in    std_logic;
         tx                  : out   std_logic;
         busy                : out   std_logic
     );
@@ -64,5 +65,7 @@ architecture Behavioral of uart_tx is
 
         tx <= tx_reg;
         busy <= sending;
+        -- loopback
+        rx <= tx
 
 end architecture;
